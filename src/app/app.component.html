@@ -1,3 +1,18 @@
-<h1>
-  {{title}}
-</h1>
+<div class="navbar">
+  <div class="navbar-header">
+    <a class="navbar-brand" routerLink="">K9 Hiking Squad</a>
+  </div>
+  <ul>
+    <li><a routerLink="marketplace">Members</a></li>
+    <li><a routerLink="newProject">Sign Up</a></li>
+    <li><a routerLink="admin">Admin</a></li>
+  </ul>
+</div>
+<div class="container">
+  <div class="header">
+    <div class="header-opaque">
+      <h1>{{title}}</h1>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>
