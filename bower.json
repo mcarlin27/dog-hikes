@@ -1,0 +1,17 @@
+{
+  "name": "dog-hikes",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Marilyn Carlin <marilyn.s.carlin@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
