@@ -10,12 +10,8 @@ import { routing } from './app.routing';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ReversePipe } from './reverse.pipe';
 import { MemberDetailComponent } from './member-detail/member-detail.component';
-// import { MembersComponent } from './members/members.component';
-// import { MemberDetailComponent } from './member-detail/member-detail.component';
-// import { AdminComponent } from './admin/admin.component';
-// import { EditMemberComponent } from './edit-member/edit-member.component';
-// import { AdminPipe } from './admin.pipe';
-// import { NewMemberComponent } from './new-member/new-member.component';
+import { AllMembersComponent } from './members/members.component';
+import { PositionPipe } from './position.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -30,11 +26,8 @@ export const firebaseConfig = {
     HomepageComponent,
     ReversePipe,
     MemberDetailComponent,
-    // MembersComponent,
-    // AdminComponent,
-    // EditMemberComponent,
-    // AdminPipe,
-    // NewMemberComponent
+    AllMembersComponent,
+    PositionPipe,
   ],
   imports: [
     BrowserModule,
