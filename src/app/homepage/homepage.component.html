@@ -1,3 +1,9 @@
-<p>
-  homepage works!
-</p>
+<div class="top4container">
+  <div *ngFor="let member of members | async | reverse" class="top4">
+    <div class="box">
+      <h3 (click)="goToDetailPage(member)"><strong>{{member.name}}</strong></h3>
+      <h4>{{member.about}}</h4>
+      <h4>{{member.location}}</h4>
+    </div>
+  </div>
+</div>

@@ -8,6 +8,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AppComponent } from './app.component';
 import { routing } from './app.routing';
 import { HomepageComponent } from './homepage/homepage.component';
+import { ReversePipe } from './reverse.pipe';
 // import { MembersComponent } from './members/members.component';
 // import { MemberDetailComponent } from './member-detail/member-detail.component';
 // import { AdminComponent } from './admin/admin.component';
@@ -26,6 +27,7 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     HomepageComponent,
+    ReversePipe,
     // MembersComponent,
     // MemberDetailComponent,
     // AdminComponent,
