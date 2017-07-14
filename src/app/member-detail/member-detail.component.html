@@ -2,8 +2,8 @@
   <h2>{{(memberToDisplay | async)?.name}}</h2>
   <h4>{{(memberToDisplay | async)?.manager}}</h4>
   <p>{{(memberToDisplay | async)?.description}}</p>
-  <p>${{(memberToDisplay | async)?.goal}}</p>
-  <p>Amount Raised: {{(memberToDisplay | async)?.amountRaised}}</p>
+  <p>{{(memberToDisplay | async)?.goal}}</p>
+  <p>Miles Hiked: {{(memberToDisplay | async)?.milesHiked}}</p>
   <p>Dogs:</p>
   <div *ngFor="let dog of dogs">
     <p>Name: {{dog.name}}</p>

@@ -12,6 +12,9 @@ import { ReversePipe } from './reverse.pipe';
 import { MemberDetailComponent } from './member-detail/member-detail.component';
 import { AllMembersComponent } from './members/members.component';
 import { PositionPipe } from './position.pipe';
+import { NewMemberComponent } from './new-member/new-member.component';
+import { EditMemberComponent } from './edit-member/edit-member.component';
+import { AdminComponent } from './admin/admin.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -28,6 +31,9 @@ export const firebaseConfig = {
     MemberDetailComponent,
     AllMembersComponent,
     PositionPipe,
+    NewMemberComponent,
+    EditMemberComponent,
+    AdminComponent,
   ],
   imports: [
     BrowserModule,

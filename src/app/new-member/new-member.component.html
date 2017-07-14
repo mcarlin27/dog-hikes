@@ -1,0 +1,53 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add New Member to Club</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <div>
+        <label>Member Name:</label>
+        <br>
+        <input #newName>
+      </div>
+      <div>
+        <label>Member About:</label>
+        <br>
+        <input #newAbout>
+      </div>
+      <div>
+        <label>Member Position:</label>
+        <br>
+        <select #newPosition>
+          <option value="Member">Member</option>
+          <option value="President">President</option>
+          <option value="Vice-President">Vice-President</option>
+          <option value="Treasurer">Treasurer</option>
+          <option value="Secretary">Secretary</option>
+        </select>
+      </div>
+      <div>
+        <h3>Member Dog:</h3>
+        <div>
+          <label>Dog's Name:</label>
+          <br>
+          <input #newDog1Name>
+          <br>
+          <label>Dog's Age</label>
+          <br>
+          <input #newDog1Age type="number" min="0">
+        </div>
+      </div>
+      <div>
+        <label>Member Location:</label>
+        <br>
+        <input #newLocation>
+      </div>
+      <div>
+        <label>Member Interests:</label>
+        <br>
+        <input #newInterests>
+      </div>
+      <button (click)="submitForm(newName.value, newAbout.value, newPosition.value, newDog1Name.value, newDog1Age.value, newLocation.value, newInterests.value); newName.value=''; newAbout.value=''; newDog1Name.value=''; newDog1Age.value=''; newLocation.value=''; newInterests.value=''">Add</button>
+    </div>
+  </div>
+</div>

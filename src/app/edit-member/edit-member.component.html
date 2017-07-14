@@ -1,0 +1,32 @@
+<h4>Edit Member</h4>
+<label>Updated Member Name:</label>
+<input [(ngModel)]="selectedMember.name">
+<br>
+<label>Updated Member About:</label>
+<input [(ngModel)]="selectedMember.about">
+<br>
+<div>
+  <label>Updated Member Position:</label>
+  <br>
+  <select [(ngModel)]="selectedMember.position">
+    <option value="Member">Member</option>
+    <option value="President">President</option>
+    <option value="Vice-President">Vice-President</option>
+    <option value="Treasurer">Treasurer</option>
+    <option value="Secretary">Secretary</option>
+  </select>
+</div>
+<div *ngFor="let dog of dogs">
+  <label>Updated Member Dog:</label>
+  <input [(ngModel)]="dog.name">
+  <input [(ngModel)]="dog.age">
+  <br>
+</div>
+<label>Updated Member Location:</label>
+<input [(ngModel)]="selectedMember.location">
+<br>
+<label>Updated Member Interests:</label>
+<input [(ngModel)]="selectedMember.interests">
+<br>
+<button (click)="beginUpdatingMember(selectedMember)">Update</button>
+<button (click)="beginDeletingMember(selectedMember)">Delete</button>
