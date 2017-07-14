@@ -24,6 +24,10 @@ export class EditMemberComponent implements OnInit {
     this.memberService.updateMember(memberToUpdate);
   }
 
+  beginAddingHike(memberWhoHiked, dogWhoHiked, hikeLength){
+    this.memberService.addHike(memberWhoHiked, dogWhoHiked, parseFloat(hikeLength));
+  }
+
   beginDeletingMember(memberToDelete){
     if(confirm("Are you sure you want to delete this member?")){
       this.memberService.deleteMember(memberToDelete);

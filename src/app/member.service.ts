@@ -31,8 +31,8 @@ export class MemberService {
     return this.database.object('members/' + memberId);
   }
 
-  getTierById(memberId: string, tierId: string){
-    return this.database.object('members/' + memberId + '/tiers/' + tierId);
+  getDogById(memberId: string, dogId: string){
+    return this.database.object('members/' + memberId + '/dogs/' + dogId);
   }
 
   updateMember(localUpdatedMember){
@@ -46,13 +46,19 @@ export class MemberService {
                               });
   }
 
-  addHike(localMember, hikeLength: number) {
+  addHike(localMember, memberDogKey, hikeLength: number) {
     var memberEntryInFirebase = this.getMemberById(localMember.$key);
     var milesHiked = parseFloat(localMember.milesHiked) + hikeLength;
+    let dogMilesHikedAmount;
+    this.getDogById(localMember.$key, memberDogKey).subscribe(data => {
+      dogMilesHikedAmount = data.dogMilesHiked + hikeLength;
+    })
+    this.getDogById(localMember.$key, memberDogKey).update({dogMilesHiked: dogMilesHikedAmount});
     memberEntryInFirebase.update({milesHiked: milesHiked
                               });
 
   }
+
 
   deleteMember(localMemberToDelete){
     var memberEntryInFirebase = this.getMemberById(localMemberToDelete.$key);

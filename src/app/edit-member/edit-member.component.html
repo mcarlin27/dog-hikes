@@ -20,13 +20,21 @@
   <label>Updated Member Dog:</label>
   <input [(ngModel)]="dog.name">
   <input [(ngModel)]="dog.age">
+  <input [(ngModel)]="dog.dogMilesHiked">
   <br>
+  <label>Record Hike:</label>
+  <input #hikeLength>
+  <br>
+  <button (click)="beginAddingHike(selectedMember, dog.$key, hikeLength.value)">Add Hike</button>
 </div>
 <label>Updated Member Location:</label>
 <input [(ngModel)]="selectedMember.location">
 <br>
 <label>Updated Member Interests:</label>
 <input [(ngModel)]="selectedMember.interests">
+<br>
+<label>Updated Member Miles Hiked:</label>
+<input [(ngModel)]="selectedMember.milesHiked">
 <br>
 <button (click)="beginUpdatingMember(selectedMember)">Update</button>
 <button (click)="beginDeletingMember(selectedMember)">Delete</button>

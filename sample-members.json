@@ -7,14 +7,17 @@
       "position": "President",
       "dogs": {
         "dog1": {
+          "dogMilesHiked": 0,
           "name": "Lana",
           "age": 1
         },
         "dog2": {
+          "dogMilesHiked": 0,
           "name": "Anna",
           "age": 4
         },
         "dog3": {
+          "dogMilesHiked": 0,
           "name": "Fontana",
           "age": 3
         }
@@ -31,14 +34,17 @@
       "position": "Vice-President",
       "dogs": {
         "dog1": {
+          "dogMilesHiked": 0,
           "name": "Hannah",
           "age": 3
         },
         "dog2": {
+          "dogMilesHiked": 0,
           "name": "Banana",
           "age": 5
         },
         "dog3": {
+          "dogMilesHiked": 0,
           "name": "Montana",
           "age": 2
         }
@@ -55,14 +61,17 @@
       "position": "Treasurer",
       "dogs": {
         "dog1": {
+          "dogMilesHiked": 0,
           "name": "Usher",
           "age": 2
         },
         "dog2": {
+          "dogMilesHiked": 0,
           "name": "Ja Rule",
           "age": 6
         },
         "dog3": {
+          "dogMilesHiked": 0,
           "name": "R Kelly",
           "age": 3
         }
@@ -79,14 +88,17 @@
       "position": "Secretary",
       "dogs": {
         "dog1": {
+          "dogMilesHiked": 0,
           "name": "Tony",
           "age": 12
         },
         "dog2": {
+          "dogMilesHiked": 0,
           "name": "Ronnie",
           "age": 8
         },
         "dog3": {
+          "dogMilesHiked": 0,
           "name": "Bill",
           "age": 10
         }
@@ -103,14 +115,17 @@
       "position": "Member",
       "dogs": {
         "dog1": {
+          "dogMilesHiked": 0,
           "name": "Diamond",
           "age": 4
         },
         "dog2": {
+          "dogMilesHiked": 0,
           "name": "Tinker Bell",
           "age": 9
         },
         "dog3": {
+          "dogMilesHiked": 0,
           "name": "Peter Pan",
           "age": 11
         }
