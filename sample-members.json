@@ -1,6 +1,7 @@
 {
   "members": [
     {
+      "milesHiked": 1000,
       "name": "Barbara Jones",
       "about": "This is the content about Barbara Jones",
       "position": "President",
@@ -24,6 +25,7 @@
       "id": "1"
     },
     {
+      "milesHiked": 2000,
       "name": "Barbara Anne",
       "about": "This is the content about Barbara Anne",
       "position": "Vice-President",
@@ -47,6 +49,7 @@
       "id": "2"
     },
     {
+      "milesHiked": 3000,
       "name": "Ashanti",
       "about": "This is the content about Ashanti",
       "position": "Treasurer",
@@ -70,6 +73,7 @@
       "id": "3"
     },
     {
+      "milesHiked": 0,
       "name": "Ozzy Osbourne",
       "about": "This is the content about Ozzy Osbourne",
       "position": "Secretary",
@@ -93,6 +97,7 @@
       "id": "4"
     },
     {
+      "milesHiked": 4000,
       "name": "Paris Hilton",
       "about": "This is the content about Paris Hilton",
       "position": "Member",
