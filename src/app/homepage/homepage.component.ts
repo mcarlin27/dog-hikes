@@ -22,7 +22,7 @@ export class HomepageComponent implements OnInit {
   }
 
 
-  goToDetailPage(clickedProject) {
-    this.router.navigate(['projects', clickedProject.$key]);
+  goToDetailPage(clickedMember) {
+    this.router.navigate(['members', clickedMember.$key]);
   };
 }

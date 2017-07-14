@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { routing } from './app.routing';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ReversePipe } from './reverse.pipe';
+import { MemberDetailComponent } from './member-detail/member-detail.component';
 // import { MembersComponent } from './members/members.component';
 // import { MemberDetailComponent } from './member-detail/member-detail.component';
 // import { AdminComponent } from './admin/admin.component';
@@ -28,8 +29,8 @@ export const firebaseConfig = {
     AppComponent,
     HomepageComponent,
     ReversePipe,
+    MemberDetailComponent,
     // MembersComponent,
-    // MemberDetailComponent,
     // AdminComponent,
     // EditMemberComponent,
     // AdminPipe,
