@@ -15,6 +15,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 | **WISH LIST: User can record hikes taken with mileage** | User inputs new hike | User's 'miles hiked' increases |
 | **WISH LIST: User forums (Admin can delete comments)** | User navigates to forum page | User can post to forum |
 
+## Installation and Setup
+1. Clone this repository
+2. To run the program, you will need a Firebase database.
+3. Create a file with your [Firebase](https://console.firebase.google.com/) API keys in src/app.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -46,6 +51,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Javascript
   * Angular 2
   * Typescript
+* CSS
+  * Sass
+* Firebase/AngularFire
 
 ## Support and contact details
 
